@@ -85,6 +85,8 @@ zgen prezto <modulename>
 
 This uses the Prezto method for loading modules.
 
+**Note**: Some modules from prezto are enabled by default. Use `ZGEN_PREZTO_LOAD_DEFAULT=0` to disable this behavior.
+
 #### Load a repo as Prezto plugins
 
 ```zsh
