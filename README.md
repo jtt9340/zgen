@@ -75,6 +75,8 @@ zgen prezto
 
 This will create a symlink in the `ZSHDOT` or `HOME` directory. This is needed by prezto.
 
+**Note**: When `zgen prezto` is used with `zgen oh-my-zsh` together, `zgen prezto` should be **put behind** the other. Or prompt theme from prezto may not display as expected.
+
 #### Load prezto plugins
 
 ```zsh
