@@ -300,7 +300,8 @@ zgen-save() {
 }
 
 zgen-apply() {
-    fpath=(${(q)ZGEN_COMPLETIONS[@]} ${fpath})
+    # fpath=(${(q)ZGEN_COMPLETIONS[@]} ${fpath})
+    fpath=(${ZGEN_COMPLETIONS[@]} ${fpath})
 
     if [[ ${ZGEN_AUTOLOAD_COMPINIT} == 1 ]]; then
         -zgpute "Initializing completions ..."
